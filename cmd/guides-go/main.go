@@ -32,7 +32,7 @@ func main() {
 			bytes, _ := json.Marshal(s.HostInfos())
 			w.Write(bytes)
 			fmt.Fprint(w, ",\"memory\":")
-			bytes, _ = json.Marshal(s.MemStats())
+			bytes, _ = json.Marshal(s.MemStats()) 
 			w.Write(bytes)
 			fmt.Fprint(w, ",\"network\":")
 			bytes, _ = json.Marshal(s.NetIOStats())
