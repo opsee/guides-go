@@ -1,0 +1,17 @@
+{
+	"ImportPath": "github.com/opsee/guides-go",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/akhenakh/statgo",
+			"Rev": "0b405e70c35657f503841e5f7791446d74075c86"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "eeba7bd0dd01ace6e690fa833b3f22aaec29af43"
+		}
+	]
+}
